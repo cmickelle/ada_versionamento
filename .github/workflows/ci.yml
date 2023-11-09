@@ -3,9 +3,9 @@ name: CI-Aula
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "pipeline-aula" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "pipeline-aula" ]
 
   workflow_dispatch:
 
